@@ -1,0 +1,13 @@
+div {
+    color: white;
+    background-color: rgb(49, 230, 236);
+  }
+  
+  p {
+    color: black;
+    background-color: rgba(70, 70, 70, 0.678);
+  }
+
+  h1, h2, a, ul, ol {
+    color: Black;
+  }
