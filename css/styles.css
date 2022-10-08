@@ -1,13 +1,64 @@
-div {
-    color: white;
-    background-color: rgb(49, 230, 236);
-  }
-  
-  p {
-    color: black;
-    background-color: rgba(70, 70, 70, 0.678);
-  }
+h1 {
+  text-align: center;
+  color:blue;
+  background-color: lightgreen;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
 
-  h1, h2, a, ul, ol {
-    color: Black;
-  }
+h2 {
+  text-align:center;
+  color:rgb(32, 32, 204);
+  background-color: rgb(122, 233, 164);
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  margin: 0;
+}
+
+ul, ol{
+  margin: 2mm;
+}
+
+div {
+  background-color:beige;
+}
+
+.ingredients {
+  background-color: rgb(187, 172, 172);
+}
+
+.pictures {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+  padding: 5mm;
+}
+
+.description{
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+#btn, .btn {
+  font-weight:800;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  border:2px solid black;
+  margin:0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#vertical-center {
+  position:absolute;
+  left: 90%;
+  margin: 0;
+  -ms-transform: translate(-100%, -100%);
+  transform: translate(-100%, -100%);
+}
